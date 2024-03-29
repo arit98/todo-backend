@@ -1,0 +1,18 @@
+GET http://localhost:4000/todos
+
+############
+
+POST http://localhost:4000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Go to the market talk to vendors"
+}
+
+############
+
+DELETE http://localhost:4000/todo/delete/65b95983798e291ad9adf613
+
+############
+
+PUT http://localhost:4000/todo/complete/65b95c80c823c1a0e4178f47
